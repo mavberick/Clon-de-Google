@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+header {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav .nav-right-section {
+  width: 300px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+header nav .nav-right-section li a {
+  margin-right: 16px;
+  color: black;
+}
+header nav .nav-right-section .menu-icon {
+  font-size: 16px;
+}
+.input-button input {
+  background-color: #2b7de9;
+  color: white;
+  height: 36px;
+  width: 114px;
+  border: none;
+  border-radius: 4px;
+}
+.input-button input:hover {
+  cursor: pointer;
+  background-color: #3986eb;
+}
+.main-logo {
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.main-logo img {
+  height: auto;
+  width: 350px;
+}
+
+main {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.main-input {
+  width: 560px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.main-input-container {
+  width: 560px;
+  border: solid 1px lightgray;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-input-container:hover {
+  box-shadow: 0 1px 6px 0;
+}
+
+.icon {
+  width: 20px;
+  margin-left: 10px;
+  color: rgb(163, 163, 163);
+}
+
+.icon-lupa {
+  margin-right: 10px;
+}
+
+.icon-camera {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon-micro {
+  cursor: pointer;
+}
+
+.main-input-container input {
+  width: 480px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-buttons button {
+  height: 36px;
+  width: auto;
+  border: none;
+  border-radius: 4px;
+  padding: 0 15px 0 15px;
+}
+
+.main-buttons button:hover {
+  border: solid 1px lightgray;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.main-texto a {
+  color: blue;
+}
+
+.main-texto {
+  margin-top: 30px;
+  font-size: 11px;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  background-color: lightgrey;
+}
+
+footer {
+  background-color: rgb(237, 236, 236);
+}
+
+footer section {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-left: 38px;
+  color: black;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: rgb(237, 236, 236);
+  border-top: 1px solid rgb(164, 164, 164);
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 12px;
+  padding-left: 12px;
+}
+
+.footer-left {
+  justify-self: left;
+  margin-left: 15px;
+}
+
+.footer-right {
+  justify-self: right;
+  margin-right: 36px;
+}
+
+footer ul li a {
+  margin: 12px;
+  color: black;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
